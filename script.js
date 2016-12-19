@@ -1,9 +1,9 @@
 document.getElementById("about").onclick = function () {
-    location.href = "pages/about.html";
+    location.href = "about.html";
 };
 document.getElementById("portefolio").onclick = function () {
-    location.href = "pages/portefolio.html";
+    location.href = "portefolio.html";
 };
 document.getElementById("contact").onclick = function () {
-    location.href = "pages/contact.html";
+    location.href = "contact.html";
 };
