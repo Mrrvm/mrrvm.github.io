@@ -1,0 +1,22 @@
+body {
+    background: #dc804a 
+}
+
+section {
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+}
+
+p:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.hcenter {
+	text-align: center;
+}
