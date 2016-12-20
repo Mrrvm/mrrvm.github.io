@@ -1,5 +1,7 @@
 body {
-    background: #dc804a 
+    background: #dc804a;
+    padding: 0;
+    margin: 0;
 }
 
 section {
@@ -19,4 +21,8 @@ p:hover {
 
 .hcenter {
 	text-align: center;
+}
+
+#canvas {
+    display: block;
 }
