@@ -11,15 +11,20 @@ body {
     border-radius: 0;
     margin-bottom: 0;
     font-size: 20px;
+    background-color: #f2f3f4 ;
     /* For a fixed nav bar */
     position: fixed;
     width: 100%;
 }
-.navbar-brand {
-	font-size: 20px;
-}
 .navbar-nav li a:hover {
     color: #1abc9c;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: black;
+    height: 3px;
+}
+.navbar-brand {
+	font-size: 20px;
 }
 
 /* Section container */
@@ -30,7 +35,7 @@ body {
 
 /* Background colors and paddings */
 .bg-1 {
-    background-color: #08B2C9; 
+    background-color: #4F5565; 
     color: #ffffff;
     padding-top: 150px;
 }
@@ -39,7 +44,7 @@ body {
     color: #ffffff;
 }
 .bg-3 {
-    background-color: #ffffff; 
+    background-color: #f2f3f4;
     color: #555555;
     padding-bottom: 40px;
 }
