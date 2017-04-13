@@ -63,3 +63,8 @@ body {
 .footer a:hover {
   color: #08B2C9;
 }
+
+/* Media only screens */
+@media only screen and (max-width: 767px) {
+	#tie {display:none!important;}
+}
