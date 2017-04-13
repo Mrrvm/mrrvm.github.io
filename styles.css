@@ -34,6 +34,11 @@ body {
     padding-bottom: 70px;
 }
 
+.row {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
 /* Background colors and paddings */
 .bg-1 {
     background-color: #4F5565; 
@@ -50,10 +55,13 @@ body {
     padding-bottom: 40px;
 }
 
+.list-group li:first-child, .list-group li:last-child {
+	color: black;
+	border-radius: 0px 0px 0px 0px;
+}
+
 /* Contact form */
 .contact-form {
-	padding-left: 20%;
-	padding-right: 20%;
 	padding-bottom: 0;
 	padding-top: 10px;
 }

@@ -31,13 +31,33 @@
     </nav>
 
     <div class="container-fluid bg-1 text-center" id="aboutme">
-      <h3>Mariana Martins</h3>    
-      <img src="images/memore.JPG" class="img-responsive img-circle" alt="Mariana Martins" style="width:30%; display:inline"/> 
-      <h3>I am learning
+      <div class="row">
+        <div class="col-sm-4">
+          <ul class="list-group">
+            <li class="list-group-item"><h3>Mariana Martins</h3></li>
+            <li class="list-group-item"><img src="images/memore.JPG" class="img-responsive " alt="Mariana Martins" style="width:40%; display:inline"/> </li>
+            <li class="list-group-item">Third item</li>
+          </ul>
+        </div>
+        <div class="col-sm-4">
+          <ul class="list-group">
+            <li class="list-group-item"><h3>Education</h3></li>
+            <li class="list-group-item">Second item</li>
+            <li class="list-group-item">Third item</li>
+          </ul>
+        </div>
+        <div class="col-sm-4">
+          <ul class="list-group">
+            <li class="list-group-item"><h3>Work Experience</h3></li>
+            <li class="list-group-item">Second item</li>
+            <li class="list-group-item">Third item</li>
+          </ul>
+        </div>
+      </div>
     </div>
     
     <div class="container-fluid bg-2 text-center" id="projects">
-      <h3>What Am I?</h3>
+      <h3>Projects</h3>
       <p>Lorem ipsum..</p>
       <a href="#" class="btn btn-default btn-lg">
         <span class="glyphicon glyphicon-search"></span> Search
@@ -62,33 +82,33 @@
       <h3>Time to contact me?</h3>
       <div class="row">
         <div id="form-messages"></div>
-        <form action="contact.php" method="post" role="form" id="contact-form" class="contact-form">
-          <div class="row">
-            <div class="col-md-6">
+          <form action="contact.php" method="post" role="form" id="contact-form" class="contact-form">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <input type="text" class="form-control" name="name" autocomplete="off" id="name" placeholder="Name">
+                </div>
+              </div>
+              <div class="col-md-6">
               <div class="form-group">
-                <input type="text" class="form-control" name="name" autocomplete="off" id="name" placeholder="Name">
+                <input type="email" class="form-control" name="email" autocomplete="off" id="email" placeholder="E-mail">
+              </div>
               </div>
             </div>
-            <div class="col-md-6">
-            <div class="form-group">
-              <input type="email" class="form-control" name="email" autocomplete="off" id="email" placeholder="E-mail">
+            <div class="row">
+              <div class="col-md-12">
+              <div class="form-group">
+                <textarea type="text" class="form-control textarea" rows="3" name="message" id="message" placeholder="Message"></textarea>
+              </div>
             </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12">
-            <div class="form-group">
-              <textarea type="text" class="form-control textarea" rows="3" name="message" id="message" placeholder="Message"></textarea>
+            <div class="row">
+              <div class="col-md-12">
+                <input type="submit" value="Send" id="send_btn" class="btn main-btn pull-center"></input>
+              </div>
             </div>
-          </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12">
-              <input type="submit" value="Send" id="send_btn" class="btn main-btn pull-center"></input>
-            </div>
-          </div>
-        </form>
-      </div>
+          </form>
+        </div>
       <div class="row footer">
         <hr>
         <p>Follow me on</p>
