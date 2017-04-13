@@ -3,8 +3,6 @@ body {
     line-height: 1.8;
 }
 
-.margin {margin-bottom: 45px;}
-
 .navbar {
     padding-top: 12px;
     padding-bottom: 12px;
@@ -15,46 +13,42 @@ body {
     position: fixed;
     width: 100%;
 }
-
 .navbar-brand {
 	font-size: 20px;
 }
-
 .navbar-nav li a:hover {
     color: #1abc9c;
 }
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
 .bg-1 {
     background-color: #1abc9c; 
     color: #ffffff;
 }
 .bg-2 {
-    background-color:  #fe553d; /* Dark Blue */
+    background-color:  #fe553d; 
     color: #ffffff;
 }
 .bg-3 {
     background-color: #ffffff; /* White */
     color: #555555;
-}
-.container-fluid {
-    padding-top: 70px;
-    padding-bottom: 70px;
-}
-.bg-4 {
-    background-color: #2f2f2f;
-    color: #ffffff;
-}
-.footer {
-	padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 50px;
 }
 
+.footer {
+	padding-top: 40px;
+	padding-bottom: 0;
+}
 .footer a {
-  color: #ffffff;
+  color: #2f2f2f;
   font-size: 30px;
-  padding: 15px;
+  padding: 10px;
   transition: all .5s ease;
 }
-
 .footer a:hover {
   color: #1abc9c;
 }
