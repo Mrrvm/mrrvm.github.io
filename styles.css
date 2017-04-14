@@ -37,8 +37,8 @@ p { margin:0; }
 }
 
 .row {
-	margin-left: 10%;
-	margin-right: 10%;
+	margin-left: 5%;
+	margin-right: 5%;
 }
 
 .title {
@@ -81,6 +81,10 @@ p { margin:0; }
   text-align: left;
 }
 
+form {
+  margin-right: 10%;
+  margin-left: 10%;
+}
 /* Contact form */
 .form-control {
 	border-radius: 0px;
