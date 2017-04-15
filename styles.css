@@ -80,12 +80,26 @@ p { margin:0; }
   color: grey;
   text-align: left;
 }
+#download h4 {
+  color: #c8ccd0;
+  font-weight: bold;
+}
+#download h4:hover {
+  color: white;
+}
+#download a {
+  outline: none;
+  text-decoration: none;
+}
+#aboutme li:last-child {
+  padding-bottom: 25px;
+}
 
+/* Contact form */
 form {
   margin-right: 10%;
   margin-left: 10%;
 }
-/* Contact form */
 .form-control {
 	border-radius: 0px;
 }
@@ -117,6 +131,9 @@ input[type="color"]:focus,
 input[type='submit']:hover {
   background-color: #4F5565;
   color: white; 
+}
+#form-messages {
+  padding-bottom: 10px;
 }
 
 /* Footer aka social logos */
